@@ -21,8 +21,8 @@ The parameters are learned using Maximum Likelihood Estimation (MLE):
 - **$c$ (Constant):** $\frac{1}{\sigma\sqrt{2\pi}}$
 
 ## 2. Description
-This project is a lab assignment demonstrating data transformation and statistical modeling techniques. 
-The Python script reads environmental data, cleans missing values, and applies a trigonometric transformation unique to the user's ID. It then calculates the optimal parameters ($\mu, \lambda, c$) to fit the transformed data to a Gaussian-like distribution.
+This project demonstrates data transformation and statistical modeling techniques. 
+The Python script reads environmental data, cleans missing values, and applies a trigonometric transformation unique to the user's roll number. It then calculates the optimal parameters ($\mu, \lambda, c$) to fit the transformed data to a Gaussian-like distribution.
 
 ## 3. Input / Output
 **Input:**
@@ -36,9 +36,7 @@ The Python script reads environmental data, cleans missing values, and applies a
 - **Data:** A dataframe with the new transformed column $z$.
 
 ## 4. Dataset Source
-*Since this is a local script-based assignment, there is no deployed live link. The source dataset used is:*
 [Kaggle - India Air Quality Data](https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data)
 
 ## 5. Output Screenshot
 ![Console Output]("screenshot.png")
-*(Place a screenshot of your Python terminal showing the learned parameters here)*
