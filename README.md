@@ -39,4 +39,4 @@ The Python script reads environmental data, cleans missing values, and applies a
 [Kaggle - India Air Quality Data](https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data)
 
 ## 5. Output Screenshot
-![Console Output]("screenshot.png")
+![Console Output](screenshot.png)
